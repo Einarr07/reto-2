@@ -1,0 +1,40 @@
+/*Selector agrupado*/
+.parrafo, .titulo1{
+background-color: teal;
+text-align: center;
+color: white;
+}
+
+/*Selector descendente*/
+main .titulo{
+    background-color: orange;
+    text-align: right;
+    color: black;
+    font-size: 30px;
+    text-decoration:dashed;
+}
+
+/*Sector agrupado*/
+#parrafo, .titulo2{
+    background-color: red;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-decoration: line-through;
+}
+
+/*Hijo directo a todos los parrafos*/
+aside > p{
+    background-color: blueviolet;
+    text-align: left;
+    color: white;
+    font-size: 25px;
+}
+
+/*Selector hermano adyacente*/
+h6 + .hermano{
+    background-color: blue;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
